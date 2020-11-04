@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+
+/* Home Page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(tennisball.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background:rgba(103, 128, 159, .4)
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0, 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 6px 13px;
+    margin-right: 20px;
+    font-family: 'Be Vietnam', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a:hover{
+    background: black;   
+    border-radius: 2px; 
+}
+
+.navbar ul li a:active{
+    background: black;   
+    border-radius: 2px; 
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Be Vietnam', sans-serif;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgba(103, 128, 159, .5);
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    transition: .2s;
+    opacity: .7;
+}
+
+/* About Us Page */
+
+
+#aboutus {
+    height: 100vh;
+    background-color: rgba(103, 128, 159, .4);
+}
+
+.img-wrap img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0, 0, 10px, #999999;
+            }
+
+.row {
+    padding-top: 5%;
+    margin: auto, 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col-sm-7 {
+    width: 75%;
+    padding-left: 10%;
+}
+
+.col-sm-7 p {
+    text-align: left;
+    line-height: 150%;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.col-sm-7 h2 {
+    font-family: 'Be Vietnam', sans-serif;
+    padding-bottom: 2%;
+}
+
+.col-sm-5 {
+    width: 50%;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
