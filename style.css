@@ -5,19 +5,30 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%;
 }
 
 .wrapper {
-    background: url(tennisball.jpg) no-repeat ;
+    background: url(./images/tennisball.jpg) no-repeat ;
     background-size: cover;
     height: 100vh;
+
 }
 
 
 .navbar {
     height: 80px;
     width: 100%;
-    background:rgba(103, 128, 159, .4)
+    background:rgba(103, 128, 159, .6);
+    /* Fixes Navbar to Top */
+    position: fixed;
+    z-index:1;
+
 }
 
 .logo {
@@ -42,8 +53,8 @@
 .navbar ul li a{
     text-decoration: none;
     color: white;
-    font-size: 1.3rem;
-    padding: 6px 13px;
+    font-size: 1.5rem;
+    padding: 0px 13px;
     margin-right: 20px;
     font-family: 'Be Vietnam', sans-serif;
     transition: .4s;
@@ -73,7 +84,7 @@
 
 .center h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: bold;
     width: 900px;
     text-align: center;
@@ -98,17 +109,25 @@ button:hover {
     opacity: .7;
 }
 
+/* Homepage Media Queries */
+
+
+
 /* About Us Page */
 
+/* Tim Wilkison */
 
 #aboutus {
-    height: 100vh;
+    height: 85vh;
     background-color: rgba(103, 128, 159, .4);
+    padding-right: 8%;
 }
 
 .img-wrap img {
     width: 100%;
     border-radius: 50%;
+    border: 3px solid rgba(103, 128, 159, .4);
+    padding: 2%;
     box-shadow: 0, 0, 10px, #999999;
             }
 
@@ -123,25 +142,57 @@ button:hover {
 .col-sm-7 {
     width: 75%;
     padding-left: 10%;
+    margin-top: 3%;
 }
 
 .col-sm-7 p {
     text-align: left;
     line-height: 150%;
     font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.5rem;
 }
 
 .col-sm-7 h2 {
     font-family: 'Be Vietnam', sans-serif;
     padding-bottom: 2%;
+    font-size: 3rem;
 }
 
 .col-sm-5 {
     width: 50%;
+    padding-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+}
+
+/* Marcus Luke */
+
+#aboutus2 {
+    height: 85vh;
+    background-color: rgba(103, 128, 159, .4);
+    padding-right: 8%;
+}
+
+.col-sm-5-1 {
+    width: 55%;
     padding-left: 10%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
+
+.img-wrap2 img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgba(103, 128, 159, .4);
+    padding: 2%;
+    box-shadow: 0, 0, 10px, #999999;
+            }
+
+.secondrow {
+    flex-direction: row-reverse;
+}
+
+
 
 /* slide in */
 
@@ -152,12 +203,32 @@ button:hover {
 
 .align-right {
     float: right;
-    margin-left: 20px;
+    margin-left: 30%;
   }
 
   .align-right.slide-in {
-    transform: translateX(30%) scale(0.95);
+    transform: translateX(18%) scale(0.95);
   }
+
+  .slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+
+  .img-wrap2.align-left {
+    float: left;
+    margin-left: -30%;
+  }
+
+  .img-wrap2.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+
+  .align-left.slide-in {
+    transform: translateX(-18%) scale(0.95);
+  }
+
 
   .slide-in.active {
     opacity: 1;
