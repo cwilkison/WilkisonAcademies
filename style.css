@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@1,300&display=swap');
+
+
 
 /* Home Page */
 
@@ -6,6 +9,8 @@
     padding: 0;
     margin: 0;
     box-sizing: inherit;
+    font-family: 'Be Vietnam', sans-serif;
+
 }
 
 
@@ -24,7 +29,7 @@ html {
 .navbartop {
     height: 80px;
     width: 100%;
-    background:rgba(103, 128, 159, .6);
+    background:rgba(103, 128, 159, .9);
     /* Fixes Navbar to Top */
     position: fixed;
     z-index:1;
@@ -243,6 +248,83 @@ button:hover {
 
   /* Tennis Camps */
 
-  .tennisCamps {
+  #tennisCamps {
       height: 100vh;
   }
+
+
+  .topheader{
+      padding-top: 3%;
+      padding-bottom: 2%;
+      display: flex;
+      margin: auto;
+      width: 100%;
+  }
+
+  .topheader p {
+      font-size: 1.5rem;
+      width: 60%;
+      padding-right: 5%;;
+      margin-left: 10%;
+  }
+
+  .topheader h1 {
+    padding-top: 1%;
+    font-size: 3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-style: italic;
+    
+}
+
+.imagegallery {
+    display: flex;
+}
+
+.imagegallery div .campphoto {
+    width: 100%;
+    height: 407px;
+    object-fit: cover;
+    position: relative;
+}
+
+.photo{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.camptitle {
+    position: absolute;    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2rem;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    background: #FFFFFFB3;
+    font-style: italic;
+}
+
+
+/* social icons */
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-icons span {
+    display: block;
+    width: 20px;
+    cursor: pointer;
+    padding-left: 2%;
+}
