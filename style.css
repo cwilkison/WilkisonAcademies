@@ -288,6 +288,10 @@ button:hover {
     position: relative;
 }
 
+.campphoto {
+    width: 33.33%;
+}
+
 .photo{
     display: flex;
     flex-direction: center;
@@ -308,6 +312,10 @@ button:hover {
     font-style: italic;
 }
 
+.photo button {
+    position: absolute;
+    margin-top: 80%;
+}
 
 /* social icons */
 
