@@ -249,7 +249,7 @@ button:hover {
   /* Tennis Camps */
 
   #tennisCamps {
-      height: 100vh;
+      height: 85vh;
   }
 
 
@@ -316,6 +316,48 @@ button:hover {
     position: absolute;
     margin-top: 80%;
 }
+
+/* Pickleball Camps */
+
+#pickleballCamps {
+    height: 25vh;
+}
+
+
+.pickleText {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.header {
+    height: 66vh;
+    background-color: black;
+}
+
+.video-background {
+    position: absolute;
+    min-width: 66%;
+    min-height: 66%;
+    display: block;
+    margin-left: 50vw;
+    transform: translate(-50%);
+    background-color: black;
+    width: 66%;
+    height: 66%;
+    z-index: auto;
+    object-fit: cover;
+    background-color: black;
+    margin-bottom: 5%;
+
+}
+
+#pb-btn {
+    position: absolute;
+    z-index: 1;
+    margin-left: 45vw;
+    margin-top: 25vh;
+}
+
 
 /* social icons */
 
