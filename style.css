@@ -14,7 +14,7 @@
 }
 
 
-html {
+html, body {
     font-size: 62.5%;
 }
 
@@ -124,8 +124,7 @@ button:hover {
 
 .wholeabout {
     background-color: #687f9e;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
-
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
     background-size: cover;
 }
 
@@ -358,6 +357,77 @@ button:hover {
     margin-top: 25vh;
 }
 
+/* Personal Training */
+
+#personal {
+    height: 90vh;
+    display: flex;
+    padding-top: 7%;
+
+}
+
+.personalText {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.personalText h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+.personalText p {
+    font-size: 1.5rem;
+    line-height: 2;
+    padding-left: 3%;
+}
+
+
+#textBorder {
+    border-left: 3px solid black;
+    margin-bottom: 8%;
+    border-color: #1D809F;
+}
+
+
+#carouselExampleIndicators {
+    width: 25vw;
+    margin-left: 40%;
+}
+
+/* Traveling */
+
+#traveling {
+    height: 100vh;
+    background-color: #687f9e;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+
+.row {
+    justify-content: center;
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
 
 /* social icons */
 
@@ -377,4 +447,55 @@ button:hover {
     width: 20px;
     cursor: pointer;
     padding-left: 2%;
+}
+
+
+/* Media Queries */
+
+/* IPAD */
+
+@media (min-width: 768px) {
+
+.titletext{
+    padding-bottom: 2%;
+}
+
+.colsmall {
+    margin-top: 12%;
+    width: 60%;
+}
+
+.lukesmall {
+    width: 70%;
+}
+
+.topheader {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.topheader {
+    padding-top: -5%;
+}
+
+.personalImages {
+    padding-top: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+#cardout {
+    padding-left: 34.8%;
+    padding-top: 5%;
+}
+
 }
