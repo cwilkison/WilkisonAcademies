@@ -1,0 +1,172 @@
+/* Media Queries
+
+/* IPAD */
+
+/* Home Page */
+    
+@media (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: inherit;
+        font-family: 'Be Vietnam', sans-serif;
+    
+    }
+
+    html, body {
+        font-size: 62.5%;
+    }
+
+
+    ul {
+        width: 75% !important;
+    }
+
+    .center h1 {
+        color: white;
+        font-size: 4rem !important;
+        font-weight: bold;
+        width: 200% !important;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: -30%;
+    }
+
+    .navbartop ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem !important;
+        padding: 0px 13px;
+        margin-right: 20px;
+        font-family: 'Be Vietnam', sans-serif;
+        transition: .4s;
+    }
+
+    .wrapper {
+        background: url(./images/tennisball.jpg) no-repeat ;
+        background-size: cover;
+        height: 100vh;
+        background-position: center !important;
+        background-attachment: fixed;
+        height: 78vh !important;
+          
+    }
+
+/* About Us */
+
+.firstrow {
+    padding-top: 5%;
+    margin: auto, 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colbig p {
+    text-align: left;
+    line-height: 120% !important;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.5rem;
+}
+
+.colsmall {
+    padding-top: 10%;
+}
+
+.lukesmall {
+    padding-top: 8%;
+}
+
+#aboutus {
+    margin-bottom: -37%;
+}
+
+.wholeabout {
+    height: 95vh !important;
+
+}
+
+  /* Tennis Camps */
+
+  .topheader {
+      margin-left: -5% !important;
+  }
+
+  .photo button {
+    position: absolute;
+    margin-top: 120% !important;
+}
+
+/* Pickleball Camps */
+
+#pickleballCamps {
+    height: 25vh;
+    width: 100% !important;
+}
+
+.pickleText {
+    padding-left: 10%;
+    margin-top: -35% !important;
+    overflow-x: hidden !important;
+}
+
+
+.pickleText p{
+    margin-right: -30%;
+}
+
+.pickleText h1{
+    margin-top: -3%;
+}
+
+.header {
+    margin-top: -10%;
+}
+
+/* Personal Training */
+
+.personalImages {
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+/* Traveling */
+
+#traveling {
+    margin-top: -35% !important;
+    height: 118vh !important;
+}
+
+.topheader p {
+    padding-left: 5% !important;
+}
+
+.topheader h1 {
+    padding-right: 5% !important;
+    padding-top: 7% !important;
+}
+
+
+.card-img-top{
+    width:100% !important;
+    height:150px !important;
+    object-fit: cover;
+  }
+
+.col{
+    padding-bottom: 5% !important;
+    padding-left: 10% !important;
+}
+
+#cardout{
+    margin-left: -8% !important;
+}
+
+#cardout2{
+    margin-left: -8% !important;
+}
+
+}
+
+

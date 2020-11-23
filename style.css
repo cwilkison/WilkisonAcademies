@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@1,300&display=swap');
 
-
-
 /* Home Page */
+
 
 * {
     padding: 0;
@@ -93,6 +92,7 @@ html, body {
     font-weight: bold;
     width: 900px;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 button {
@@ -113,9 +113,6 @@ button:hover {
     transition: .2s;
     opacity: .7;
 }
-
-/* Homepage Media Queries */
-
 
 
 /* About Us Page */
@@ -398,6 +395,12 @@ button:hover {
     margin-left: 40%;
 }
 
+.d-block {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
 /* Traveling */
 
 #traveling {
@@ -447,55 +450,4 @@ button:hover {
     width: 20px;
     cursor: pointer;
     padding-left: 2%;
-}
-
-
-/* Media Queries */
-
-/* IPAD */
-
-@media (min-width: 768px) {
-
-.titletext{
-    padding-bottom: 2%;
-}
-
-.colsmall {
-    margin-top: 12%;
-    width: 60%;
-}
-
-.lukesmall {
-    width: 70%;
-}
-
-.topheader {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.topheader {
-    padding-top: -5%;
-}
-
-.personalImages {
-    padding-top: 5%;
-}
-
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.card-img-top {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-}
-
-#cardout {
-    padding-left: 34.8%;
-    padding-top: 5%;
-}
-
 }
