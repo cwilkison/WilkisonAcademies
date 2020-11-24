@@ -24,7 +24,6 @@ html, body {
 
 }
 
-
 .navbartop {
     height: 80px;
     width: 100%;
@@ -118,6 +117,11 @@ button:hover {
 /* About Us Page */
 
 /* Tim Wilkison */
+
+#wholeaboutID {
+    scroll-margin-top: 80px;
+  }
+
 
 .wholeabout {
     background-color: #687f9e;
@@ -244,8 +248,11 @@ button:hover {
 
   /* Tennis Camps */
 
+
+  
   #tennisCamps {
       height: 85vh;
+      scroll-margin-top: 80px;
   }
 
 
@@ -317,6 +324,8 @@ button:hover {
 
 #pickleballCamps {
     height: 25vh;
+    scroll-margin-top: 83px;
+
 }
 
 
@@ -360,6 +369,7 @@ button:hover {
     height: 90vh;
     display: flex;
     padding-top: 7%;
+    scroll-margin-top: 79px;
 
 }
 
@@ -410,6 +420,8 @@ button:hover {
     background-size: cover;
     margin: 0px;
     padding: 30px 0px;
+    scroll-margin-top: 79px;
+
 }
 
 .title {
@@ -450,4 +462,22 @@ button:hover {
     width: 20px;
     cursor: pointer;
     padding-left: 2%;
+}
+
+/* Footer */
+
+footer{
+    margin: auto;
+    text-align: center;
+    height: 20vh;
+    padding-top: 3%;
+    height: 15vh;
+}
+
+footer p {
+    padding-top: 2%;
+}
+
+#footerbutton {
+    font-size: 1.5rem;
 }
