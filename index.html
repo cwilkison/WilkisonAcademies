@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./less/styles.css">
     <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -21,6 +22,7 @@
 </head>
 
 <body id="bodywrapper">
+    <!--Large Navigation-->
     <div class="wrapper">
         <nav class="navbartop" id="navbarID">
             <img class="logo" src="./images/logo.jpg">
@@ -32,9 +34,26 @@
                 <li><a href="#traveling" class="link hover-2">Traveling Camps</a></li>
             </ul>
         </nav>
-        <nav class="navbartop">
+        <!--Cell Navigation-->
+        <div class="cellNav">
             <img class="logo" src="./images/logo.jpg">
-        </nav>
+            <div id="sidebar">
+                <div class="toggle-btn" onclick="toggleSidebar(this)">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="list">
+                    <div class="item"><a href="#bodywrapper">Home</a></div>
+                    <div class="item"><a href="#wholeaboutID">About</a></div>
+                    <div class="item"><a href="#tennisCamps">Tennis Camps</a></div>
+                    <div class="item"><a href="#pickleballCamps">Pickleball Camps</a></div>
+                    <div class="item"><a href="#personal">Personal Training</a></div>
+                    <div class="item"><a href="#traveling">Traveling Camps</a></div>
+
+                </div>
+            </div>
+        </div>
         <div class="center">
             <h1 class="titletext">High Level Racquet Sports <br> Coaching and Experiences</h1>
             <button>
@@ -233,6 +252,7 @@
                 the possibility of holding a camp at your facility. </p>
             <h1>- Traveling Camps</h1>
         </div>
+        <!--Traveling Cards for Large Screen-->
         <div class="row">
             <div class="col">
                 <div class="card text-center" style="width: 25rem;">
@@ -271,6 +291,7 @@
                 </div>
             </div>
         </div>
+        <!--Phone Carousel for Traveling-->
         <div id="carouselExampleIndicatorsTWO" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicatorsTWO" data-slide-to="0" class="active"></li>
@@ -358,7 +379,7 @@
 
     <script src="slidein.js"></script>
     <script src="carousel.js"></script>
-
+    <script src="sidebar.js"></script>
 
 
 </body>
