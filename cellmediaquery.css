@@ -38,4 +38,55 @@
     .campbutton {
         width: 75%;
     }
+
+    #tennisCampstext {
+        width: 90%;
+        padding-top: 5%;
+        margin-left: -2%;
+    }
+
+    /* pickleball camps */
+
+    .pickleText {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    #pickleballHeader {
+        margin-right: -5% !important;
+        margin-left: -8% !important;
+        margin-top: 5% !important;
+    }
+
+    #pickleballText {
+        width: 90%;
+        padding-top: 5%;
+        margin-left: -2%;
+    }
+    
+
+    /* personal instruction */
+
+    #learnMoreButton {
+        margin-top: 15%;
+    }
+
+    /* traveling instruction */
+
+    #travelingHeader {
+        padding-left: 15%;
+    }
+
+    #travelingtext {
+        width: 90%;
+        padding-top: 5%;
+        margin-left: -2%;
+    }
+
+    .topheader {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 15%;
+
+    }
 }
