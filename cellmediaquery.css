@@ -16,7 +16,7 @@
     }
 
     #aboutus2{
-        padding-top: 10% !important;
+        padding-top: 12% !important;
     }
 
     .marcusname {
@@ -28,4 +28,14 @@
         padding-top: 20%;
     }
 
+    /* tennis camps */
+
+    #tennisCamps {
+        overflow-x: hidden !important;
+
+    }
+
+    .campbutton {
+        width: 75%;
+    }
 }
