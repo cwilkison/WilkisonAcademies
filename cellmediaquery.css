@@ -3,7 +3,7 @@
     /* about */
 
     #wholeaboutID {
-        height: 100vh !important;
+        height: 110vh !important;
     }
 
     .timname {
@@ -13,10 +13,6 @@
 
     .colsmall {
         padding-top: 30% !important;
-    }
-
-    #aboutus2 {
-        padding-top: -20%;
     }
 
     .marcusname {
