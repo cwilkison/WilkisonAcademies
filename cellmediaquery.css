@@ -1,9 +1,9 @@
-@media (max-width: 400px) {
+@media (max-width: 380px) {
 
     /* about */
 
     #wholeaboutID {
-        height: 110vh !important;
+        height: 100vh !important;
     }
 
     .timname {
@@ -13,6 +13,10 @@
 
     .colsmall {
         padding-top: 30% !important;
+    }
+
+    #aboutus2{
+        padding-top: 10% !important;
     }
 
     .marcusname {
