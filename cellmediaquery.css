@@ -32,7 +32,6 @@
 
     #tennisCamps {
         overflow-x: hidden !important;
-
     }
 
     .campbutton {
@@ -48,6 +47,7 @@
     /* pickleball camps */
 
     .pickleText {
+        height: 250px !important;
         display: flex;
         flex-direction: row !important;
     }
