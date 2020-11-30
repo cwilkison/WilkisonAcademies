@@ -32,6 +32,7 @@
 
     #tennisCamps {
         overflow-x: hidden !important;
+        height: 75vh !important;
     }
 
     .campbutton {
@@ -63,7 +64,10 @@
         padding-top: 5%;
         margin-left: -2%;
     }
-    
+
+    #pickleballCamps {
+        margin-top: -20% !important;
+    }
 
     /* personal instruction */
 
@@ -89,4 +93,45 @@
         padding-left: 15%;
 
     }
+}
+
+@media (max-width: 1024px) {
+  .spacer {
+      display: none !important;
+  }
+
+  .pickleText {
+    margin-top: -5% !important;
+  }
+
+  /* Traveling */
+
+  /* #traveling {
+    height: 105vh !important;
+}
+
+.card-img-top{
+    width:100% !important;
+    height:150px !important;
+    object-fit: cover;
+  }
+
+.col{
+    padding-bottom: 5% !important;
+    padding-left: 10% !important;
+}
+
+#cardout{
+    margin-left: -8% !important;
+}
+
+#cardout2{
+    margin-left: -8% !important;
+}
+
+.row {
+    padding-left: 10% !important;
+} */
+
+  
 }

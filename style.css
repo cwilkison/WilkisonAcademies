@@ -481,3 +481,7 @@ footer p {
 #footerbutton {
     font-size: 1.5rem;
 }
+
+.spacer {
+    display: none;
+}

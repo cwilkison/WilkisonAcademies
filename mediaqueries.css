@@ -6,6 +6,7 @@
     
 @media (max-width: 768px) {
 
+
     * {
         padding: 0;
         margin: 0;
@@ -89,6 +90,10 @@
 
   /* Tennis Camps */
 
+  #tennisCamps {
+      height: 60vh !important;
+  }
+
   .topheader {
       margin-left: -5% !important;
   }
@@ -167,7 +172,10 @@
     margin-left: -8% !important;
 }
 
+
 }
+
+
 
 /* Cell Phone 500px Width*/
 
@@ -290,13 +298,13 @@
 /* Pickleball Camps */
 
 #pickleballCamps {
-    height: 25vh;
+    height: 30vh !important;
     width: 100% !important;
 }
 
 .pickleText {
     padding-left: 10%;
-    padding-top: 8% !important;
+    padding-top: 20% !important;
     margin-top: -30% !important;
     overflow-x: hidden !important;
 }
