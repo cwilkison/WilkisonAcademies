@@ -1,0 +1,31 @@
+@media (max-width: 380px) {
+
+    /* about */
+
+    #wholeaboutID {
+        height: 110vh !important;
+    }
+
+    .timname {
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+
+    .colsmall {
+        padding-top: 30% !important;
+    }
+
+    #aboutus2 {
+        padding-top: 20%;
+    }
+
+    .marcusname {
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+
+    .lukesmall {
+        padding-top: 20%;
+    }
+
+}

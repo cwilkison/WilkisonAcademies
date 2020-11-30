@@ -169,7 +169,7 @@
 
 }
 
-/* Cell Phone */
+/* Cell Phone 500px Width*/
 
 
 @media (max-width: 500px) {
@@ -382,3 +382,5 @@
         display: none;
     }
 }
+
+
