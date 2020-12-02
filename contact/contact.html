@@ -7,8 +7,9 @@
     <title>Contact</title>
     <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0effd73cfb.js" crossorigin="anonymous"></script>
-
+    <script src="./main.js"></script>
 
 </head>
 
@@ -27,22 +28,24 @@
 
     <div class="contact-section">
         <div class="contact-info">
-            <div><i class="fas fa-map-marker-alt"></i>5903 Laurium Road, Charlotte, NC</div>
+            <div><i class="fas fa-map-marker-alt"></i>Charlotte, NC</div>
             <div><i class="fas fa-envelope"></i>wilkisontim@gmail.com</div>
             <div><i class="fas fa-phone"></i>(704) 609-0904</div>
             <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+            <a href="../index.html"><button name="back" value="back">Go Back</button></a>
+
         </div>
         <div class="contact-form">
             <h2>Contact Us</h2>
-            <form class="contact" action="mailto:wilkison.cole@gmail.com" enctype="text/plain" method="post">
-                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
-                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <input type="submit" name="submit" class="send-btn" value="Send">
-
+            <form class="contact" action="https://formspree.io/f/xgeplqeo" method="POST">
+                <input type="text" name="name" class="text-box name" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box email" placeholder="Your Email" required>
+                <textarea name="message" class="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" name="submit" value="Send">Send</button>
                 </textarea>
             </form>
         </div>
+
 
     </div>
 
