@@ -241,6 +241,7 @@
 
     /* About Us */
 
+
     #aboutus2 {
         padding-top: 50% !important;
     }
@@ -273,8 +274,8 @@
         margin-bottom: -50%;
     }
     
-    .wholeabout {
-        height: 90vh !important;
+    #wholeaboutID {
+        height: 100% !important;
     
     }
 
