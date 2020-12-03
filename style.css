@@ -316,16 +316,20 @@ button:hover {
 /* Pickleball Camps */
 
 #pickleballCamps {
-    padding-top: 30vh;
-    height: 25vh;
+    padding-top: 25%;
+    height: 100%;
     scroll-margin-top: 83px;
 
 }
 
 
 .pickleText {
-    padding-left: 10%;
+    padding-left: 20%;
     padding-top: 5%;
+}
+
+#pickleballText {
+    padding-left: 15%;
 }
 
 .header {

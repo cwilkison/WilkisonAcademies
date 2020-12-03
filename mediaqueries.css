@@ -303,15 +303,18 @@
 /* Pickleball Camps */
 
 #pickleballCamps {
-    height: 30vh !important;
+    height: 100% !important;
     width: 100% !important;
+}
+
+#picklespace {
 }
 
 .pickleText {
     padding-left: 10%;
-    padding-top: 20% !important;
-    margin-top: -30% !important;
+    padding-top: 25% !important;
     overflow-x: hidden !important;
+
 }
 
 
