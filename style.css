@@ -120,6 +120,8 @@ button:hover {
 
 #wholeaboutID {
     scroll-margin-top: 80px;
+    height: 120h;
+
   }
 
 
@@ -127,11 +129,6 @@ button:hover {
     background-color: #687f9e;
     background-image: url("https://www.transparenttextures.com/patterns/xv.png");
     background-size: cover;
-}
-
-#aboutus {
-    height: 80vh;
-    padding-right: 8%;
 }
 
 .imageone img {
