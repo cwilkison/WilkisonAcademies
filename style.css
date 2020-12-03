@@ -123,6 +123,7 @@ button:hover {
 
 #wholeaboutID {
     scroll-margin-top: 80px;
+    overflow-x: hidden;
   }
 
 

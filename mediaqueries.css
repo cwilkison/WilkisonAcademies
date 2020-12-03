@@ -357,7 +357,7 @@
 
 .pickleText {
     padding-left: 10%;
-    padding-top: 5% !important;
+    padding-top: 15% !important;
     overflow-x: hidden !important;
     display: flex !important;
     flex-direction: column !important;
@@ -377,6 +377,28 @@
 
 .header {
     margin-top: -20%;
+    height: 66vh;
+    background-color: black;
+}
+
+.video {
+    padding-top: 20vh !important;
+}
+.video-background {
+    position: absolute;
+    min-width: 66%;
+    min-height: 66%;
+    display: block;
+    margin-left: 50vw;
+    transform: translate(-50%);
+    background-color: black;
+    width: 66%;
+    height: 66%;
+    z-index: auto;
+    object-fit: cover;
+    background-color: black;
+    margin-bottom: 5%;
+
 }
 
 #pb-btn {
