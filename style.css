@@ -176,7 +176,6 @@ button:hover {
 /* Marcus Luke */
 
 #aboutus2 {
-    height: 80vh;
     padding-right: 8%;
     padding-top: 3%;
 }
@@ -184,6 +183,7 @@ button:hover {
 .lukesmall {
     width: 55%;
     padding-left: 10%;
+    padding-bottom: 5%;
     margin-right: 5%;
     margin-top: 2%;
 }

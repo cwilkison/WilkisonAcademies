@@ -241,6 +241,10 @@
 
     /* About Us */
 
+    #aboutus2 {
+        padding-top: 50% !important;
+    }
+
     .firstrow {
         padding-top: 5%;
         margin: auto, 0;
