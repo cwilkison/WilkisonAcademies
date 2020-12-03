@@ -337,10 +337,12 @@
 }
 
 #campHeader {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     padding-top: 5%;
-    padding-right: 10%;
-    margin-right: -10%;
-
+    padding-right: 20%;
+    width: 120%;
 }
 
 
@@ -348,33 +350,33 @@
 
 #pickleballCamps {
     height: 100% !important;
-    width: 100% !important;
+  
 }
 
-#picklespace {
-}
+
 
 .pickleText {
     padding-left: 10%;
-    padding-top: 25% !important;
+    padding-top: 5% !important;
     overflow-x: hidden !important;
-
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 
 .pickleText p{
     margin-right: -3% !important;
     font-size: .8rem;
-    width: 50% !important;
+    width: 100% !important;
 }
 
 .pickleText h1{
     font-size: 2rem !important;
-    padding-left: 5%;
+    padding-top: -15% !important;
 }
 
 .header {
-    margin-top: -10%;
+    margin-top: -20%;
 }
 
 #pb-btn {

@@ -21,6 +21,7 @@ html, body {
     background: url(./images/tennisball.jpg) no-repeat ;
     background-size: cover;
     height: 100vh;
+    
 
 }
 
@@ -92,6 +93,8 @@ html, body {
     width: 900px;
     text-align: center;
     padding-bottom: 2%;
+    overflow-x: hidden;
+
 }
 
 button {
@@ -254,30 +257,30 @@ button:hover {
     width: 35%;
 }
   
-  
-
-  .topheader{
-      padding-bottom: 2%;
-      display: flex;
-      margin: auto;
-      width: 100%;
-  }
-
-  .topheader p {
-      font-size: 1.5rem;
-      width: 60%;
-      padding-right: 5%;;
-      margin-left: 10%;
-  }
-
-  .topheader h1 {
-    padding-top: 1%;
-    font-size: 3rem;
-    overflow: hidden;
-    white-space: nowrap;
-    font-style: italic;
-    
+.topheader{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    margin: auto;
+    width: 100%;
 }
+
+.topheader p {
+    font-size: 1.5rem;
+    width: 60%;
+    padding-right: 5%;;
+    margin-left: 10%;
+}
+
+.topheader h1 {
+  padding-top: 1%;
+  font-size: 3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-style: italic;
+  
+}
+
 
 .imagegallery {
     display: flex;
@@ -323,21 +326,30 @@ button:hover {
 
 /* Pickleball Camps */
 
-#pickleballCamps {
-    padding-top: 25%;
+
+.pickleText {
+    padding-top: 5%;
+    padding-left: 18%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
     height: 100%;
     scroll-margin-top: 83px;
-
 }
 
 
-.pickleText {
-    padding-left: 20%;
-    padding-top: 5%;
+
+#pickleballHeader {
+    margin-right: -5%;
+    margin-left: -10%;
+    margin-top: 5%;
 }
 
 #pickleballText {
+    width: 90%;
     padding-left: 15%;
+    padding-top: 6%;
+    margin-left: -2%;
 }
 
 .header {
