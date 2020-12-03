@@ -246,13 +246,9 @@ button:hover {
 
   
   #tennisCamps {
-      height: 85vh;
-      scroll-margin-top: 80px;
   }
 
-
   .topheader{
-      padding-top: 3%;
       padding-bottom: 2%;
       display: flex;
       margin: auto;
@@ -277,6 +273,8 @@ button:hover {
 
 .imagegallery {
     display: flex;
+    position: absolute;
+
 }
 
 .imagegallery div .campphoto {
@@ -318,6 +316,7 @@ button:hover {
 /* Pickleball Camps */
 
 #pickleballCamps {
+    padding-top: 30vh;
     height: 25vh;
     scroll-margin-top: 83px;
 
