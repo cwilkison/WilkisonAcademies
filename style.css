@@ -246,7 +246,15 @@ button:hover {
 
   
   #tennisCamps {
+    overflow-x: hidden;
+    height: 75vh;
   }
+
+  .campbutton {
+    width: 35%;
+}
+  
+  
 
   .topheader{
       padding-bottom: 2%;

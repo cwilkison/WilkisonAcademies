@@ -30,14 +30,8 @@
 
     /* tennis camps */
 
-    #tennisCamps {
-        overflow-x: hidden !important;
-        height: 75vh !important;
-    }
 
-    .campbutton {
-        width: 75%;
-    }
+   
 
     #tennisCampstext {
         width: 90%;
@@ -95,7 +89,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .spacer {
       display: none !important;
   }
@@ -133,5 +127,3 @@
     padding-left: 10% !important;
 } */
 
-  
-}

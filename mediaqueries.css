@@ -4,7 +4,7 @@
 
 /* Home Page */
     
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 501px) {
 
 
     * {
@@ -86,6 +86,10 @@
 .wholeabout {
     height: 95vh !important;
 
+}
+
+#aboutus2 {
+    padding-top: 35% !important;
 }
 
   /* Tennis Camps */
@@ -181,6 +185,44 @@
 
 
 @media (max-width: 500px) {
+
+    /******** IPAD TO CELL MEDIA QUERY ***********/
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: inherit;
+        font-family: 'Be Vietnam', sans-serif;
+    
+    }
+
+    html, body {
+        font-size: 62.5%;
+    }
+
+    .center h1 {
+        color: white;
+        font-size: 4rem !important;
+        font-weight: bold;
+        width: 140% !important;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: -30%;
+    }
+
+    
+    .wrapper {
+        background: url(./images/tennisball.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center !important;
+        background-attachment: fixed;
+        height: 78vh !important;
+          
+    }
+
+/* ********* IPAD TO CELL MEDIA QUERY *************/
+
 
     /* Homepage */
 
@@ -281,23 +323,25 @@
 
       /* Tennis Camps */
 
-  .topheader {
-    margin-left: -5% !important;
-}
-
 .topheader p {
     font-size: .8rem !important;
 }
 
 .topheader h1 {
     font-size: 2rem !important;
-    margin-top: -5% !important;
 }
 .photo button {
   position: absolute;
   margin-top: 180% !important;
+  width: 60%;
 }
 
+#campHeader {
+    padding-top: 5%;
+    padding-right: 10%;
+    margin-right: -10%;
+
+}
 
 
 /* Pickleball Camps */
