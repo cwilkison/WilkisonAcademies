@@ -401,11 +401,15 @@
 #pb-btn {
     position: absolute;
     z-index: 1;
-    margin-left: 35vw !important;
+    margin-left: 30vw !important;
     margin-top: 25vh;
 }
 
 /* Personal Training */
+
+#learnMoreButton {
+    margin-top: 15%;
+}
 
 .personalImages {
     padding-top: 20%;
