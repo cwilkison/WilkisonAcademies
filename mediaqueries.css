@@ -358,7 +358,7 @@
 
 #tennisCamps {
     overflow-x: hidden;
-    height: 68vh !important;
+    height: 50vh !important;
   }
 
 /* Pickleball Camps */
@@ -366,7 +366,8 @@
 
 
 #pickleballCamps {
-    height: 100% !important;
+    height: 45vh !important;
+    padding-top: 30%;
     margin-top:10% !important;
   
 }
