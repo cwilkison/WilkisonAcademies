@@ -407,6 +407,10 @@
 
 /* Personal Training */
 
+#personal {
+margin-bottom: 20% !important;
+}
+
 #learnMoreButton {
     margin-top: 15%;
 }
@@ -438,9 +442,14 @@
 
 #traveling {
     margin-top: -35% !important;
-    height: 75vh !important;
+    height: 80vh !important;
 }
 
+#travelText {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
 .col {
     display: none;
 }
