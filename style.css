@@ -121,6 +121,13 @@ button:hover {
 
 /* Tim Wilkison */
 
+#aboutLink {
+    position: absolute;
+    width: 100%;
+    scroll-margin-top: 80px;
+
+}
+
 #wholeaboutID {
     scroll-margin-top: 80px;
     overflow-x: hidden;
@@ -248,10 +255,17 @@ button:hover {
   /* Tennis Camps */
 
 
-  
+  #tennisLink {
+      position: absolute;
+      width: 100%;
+      scroll-margin-top: 85px;
+
+  }
+
   #tennisCamps {
     overflow-x: hidden;
     height: 75vh;
+
   }
 
   .campbutton {
@@ -327,6 +341,10 @@ button:hover {
 
 /* Pickleball Camps */
 
+#pickleballCamps {
+    scroll-margin-top: 19px;
+
+}
 
 .pickleText {
     padding-top: 5%;
@@ -335,7 +353,6 @@ button:hover {
     display: flex;
     flex-direction: row;
     height: 100%;
-    scroll-margin-top: 83px;
 }
 
 
