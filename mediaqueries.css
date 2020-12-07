@@ -478,3 +478,8 @@ margin-bottom: 20% !important;
 }
 
 
+@media (width: 1024px) {
+    #cardout {
+        display: none;
+    }
+}
