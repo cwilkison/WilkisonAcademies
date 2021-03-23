@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+body {
+  background-color: #687f9e;
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+  background-size: cover;
+}
+
+#title {
+  font-size: 3rem;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+/* Location Divs */
+
+.location {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  border-bottom: 1px black solid;
+}
+
+img {
+  height: 200px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.skyline {
+  border-radius: 25px;
+}
+
+button {
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: rgba(32, 4, 98, 0.5);
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 15%;
+}
+
+button:hover {
+  background: black;
+  transition: 0.2s;
+  opacity: 0.7;
+}
+
+/* Navbar */
+
+.navbartop {
+  height: 80px;
+  width: 100%;
+  background: rgba(103, 128, 159, 0.9);
+  /* Fixes Navbar to Top */
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.navbartop ul {
+  float: right;
+  margin-right: 20px;
+  display: flex;
+}
+
+.navbartop ul li {
+  list-style: none;
+  margin: 0, 8px;
+  line-height: 80px;
+}
+
+.navbartop ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0px 13px;
+  margin-right: 20px;
+  font-family: "Be Vietnam", sans-serif;
+  transition: 0.4s;
+}
+
+.navbartop ul li a:hover {
+  background: black;
+  border-radius: 2px;
+}
+
+.navbartop ul li a:active {
+  background: black;
+  border-radius: 2px;
+}
+
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Be Vietnam", sans-serif;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  background-size: cover;
+  height: 10vh;
+}
+
+/* Cell Media Query */
+
+@media (max-width: 500px) {
+  #title {
+    font-size: 1.5rem;
+  }
+  .location {
+    width: 300px;
+    margin: auto;
+  }
+
+  img {
+    width: 300px;
+  }
+}
